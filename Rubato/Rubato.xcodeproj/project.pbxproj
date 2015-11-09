@@ -15,6 +15,7 @@
 		33D097041BF0205E00E6A3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D097021BF0205E00E6A3F1 /* LaunchScreen.storyboard */; };
 		33D0970F1BF0205E00E6A3F1 /* RubatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0970E1BF0205E00E6A3F1 /* RubatoTests.swift */; };
 		33D0971A1BF0205E00E6A3F1 /* RubatoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D097191BF0205E00E6A3F1 /* RubatoUITests.swift */; };
+		33D097291BF02D3800E6A3F1 /* spotify-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33D097281BF02D3800E6A3F1 /* spotify-logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		33D097151BF0205E00E6A3F1 /* RubatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D097191BF0205E00E6A3F1 /* RubatoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubatoUITests.swift; sourceTree = "<group>"; };
 		33D0971B1BF0205E00E6A3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D097281BF02D3800E6A3F1 /* spotify-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "spotify-logo.jpg"; path = "../../../../../../Downloads/spotify-logo.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		33D096EA1BF0205E00E6A3F1 = {
 			isa = PBXGroup;
 			children = (
+				33D097271BF02CC500E6A3F1 /* Images */,
 				33D096F51BF0205E00E6A3F1 /* Rubato */,
 				33D0970D1BF0205E00E6A3F1 /* RubatoTests */,
 				33D097181BF0205E00E6A3F1 /* RubatoUITests */,
@@ -126,6 +129,14 @@
 				33D0971B1BF0205E00E6A3F1 /* Info.plist */,
 			);
 			path = RubatoUITests;
+			sourceTree = "<group>";
+		};
+		33D097271BF02CC500E6A3F1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				33D097281BF02D3800E6A3F1 /* spotify-logo.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +247,7 @@
 				33D097041BF0205E00E6A3F1 /* LaunchScreen.storyboard in Resources */,
 				33D097011BF0205E00E6A3F1 /* Assets.xcassets in Resources */,
 				33D096FC1BF0205E00E6A3F1 /* Main.storyboard in Resources */,
+				33D097291BF02D3800E6A3F1 /* spotify-logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
