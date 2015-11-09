@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33D096F71BF0205E00E6A3F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */; };
+		33D096F91BF0205E00E6A3F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D096F81BF0205E00E6A3F1 /* ViewController.swift */; };
+		33D096FC1BF0205E00E6A3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D096FA1BF0205E00E6A3F1 /* Main.storyboard */; };
+		33D096FF1BF0205E00E6A3F1 /* Rubato.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33D096FD1BF0205E00E6A3F1 /* Rubato.xcdatamodeld */; };
+		33D097011BF0205E00E6A3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D097001BF0205E00E6A3F1 /* Assets.xcassets */; };
+		33D097041BF0205E00E6A3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D097021BF0205E00E6A3F1 /* LaunchScreen.storyboard */; };
+		33D0970F1BF0205E00E6A3F1 /* RubatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0970E1BF0205E00E6A3F1 /* RubatoTests.swift */; };
+		33D0971A1BF0205E00E6A3F1 /* RubatoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D097191BF0205E00E6A3F1 /* RubatoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33D0970B1BF0205E00E6A3F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33D096EB1BF0205E00E6A3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33D096F21BF0205E00E6A3F1;
+			remoteInfo = Rubato;
+		};
+		33D097161BF0205E00E6A3F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33D096EB1BF0205E00E6A3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33D096F21BF0205E00E6A3F1;
+			remoteInfo = Rubato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33D096F31BF0205E00E6A3F1 /* Rubato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rubato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33D096F81BF0205E00E6A3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33D096FB1BF0205E00E6A3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33D096FE1BF0205E00E6A3F1 /* Rubato.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rubato.xcdatamodel; sourceTree = "<group>"; };
+		33D097001BF0205E00E6A3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33D097031BF0205E00E6A3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33D097051BF0205E00E6A3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D0970A1BF0205E00E6A3F1 /* RubatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D0970E1BF0205E00E6A3F1 /* RubatoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubatoTests.swift; sourceTree = "<group>"; };
+		33D097101BF0205E00E6A3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D097151BF0205E00E6A3F1 /* RubatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D097191BF0205E00E6A3F1 /* RubatoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubatoUITests.swift; sourceTree = "<group>"; };
+		33D0971B1BF0205E00E6A3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33D096F01BF0205E00E6A3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D097071BF0205E00E6A3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D097121BF0205E00E6A3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33D096EA1BF0205E00E6A3F1 = {
+			isa = PBXGroup;
+			children = (
+				33D096F51BF0205E00E6A3F1 /* Rubato */,
+				33D0970D1BF0205E00E6A3F1 /* RubatoTests */,
+				33D097181BF0205E00E6A3F1 /* RubatoUITests */,
+				33D096F41BF0205E00E6A3F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33D096F41BF0205E00E6A3F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33D096F31BF0205E00E6A3F1 /* Rubato.app */,
+				33D0970A1BF0205E00E6A3F1 /* RubatoTests.xctest */,
+				33D097151BF0205E00E6A3F1 /* RubatoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33D096F51BF0205E00E6A3F1 /* Rubato */ = {
+			isa = PBXGroup;
+			children = (
+				33D096F61BF0205E00E6A3F1 /* AppDelegate.swift */,
+				33D096F81BF0205E00E6A3F1 /* ViewController.swift */,
+				33D096FA1BF0205E00E6A3F1 /* Main.storyboard */,
+				33D097001BF0205E00E6A3F1 /* Assets.xcassets */,
+				33D097021BF0205E00E6A3F1 /* LaunchScreen.storyboard */,
+				33D097051BF0205E00E6A3F1 /* Info.plist */,
+				33D096FD1BF0205E00E6A3F1 /* Rubato.xcdatamodeld */,
+			);
+			path = Rubato;
+			sourceTree = "<group>";
+		};
+		33D0970D1BF0205E00E6A3F1 /* RubatoTests */ = {
+			isa = PBXGroup;
+			children = (
+				33D0970E1BF0205E00E6A3F1 /* RubatoTests.swift */,
+				33D097101BF0205E00E6A3F1 /* Info.plist */,
+			);
+			path = RubatoTests;
+			sourceTree = "<group>";
+		};
+		33D097181BF0205E00E6A3F1 /* RubatoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33D097191BF0205E00E6A3F1 /* RubatoUITests.swift */,
+				33D0971B1BF0205E00E6A3F1 /* Info.plist */,
+			);
+			path = RubatoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33D096F21BF0205E00E6A3F1 /* Rubato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D0971E1BF0205E00E6A3F1 /* Build configuration list for PBXNativeTarget "Rubato" */;
+			buildPhases = (
+				33D096EF1BF0205E00E6A3F1 /* Sources */,
+				33D096F01BF0205E00E6A3F1 /* Frameworks */,
+				33D096F11BF0205E00E6A3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rubato;
+			productName = Rubato;
+			productReference = 33D096F31BF0205E00E6A3F1 /* Rubato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33D097091BF0205E00E6A3F1 /* RubatoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D097211BF0205E00E6A3F1 /* Build configuration list for PBXNativeTarget "RubatoTests" */;
+			buildPhases = (
+				33D097061BF0205E00E6A3F1 /* Sources */,
+				33D097071BF0205E00E6A3F1 /* Frameworks */,
+				33D097081BF0205E00E6A3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33D0970C1BF0205E00E6A3F1 /* PBXTargetDependency */,
+			);
+			name = RubatoTests;
+			productName = RubatoTests;
+			productReference = 33D0970A1BF0205E00E6A3F1 /* RubatoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33D097141BF0205E00E6A3F1 /* RubatoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D097241BF0205E00E6A3F1 /* Build configuration list for PBXNativeTarget "RubatoUITests" */;
+			buildPhases = (
+				33D097111BF0205E00E6A3F1 /* Sources */,
+				33D097121BF0205E00E6A3F1 /* Frameworks */,
+				33D097131BF0205E00E6A3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33D097171BF0205E00E6A3F1 /* PBXTargetDependency */,
+			);
+			name = RubatoUITests;
+			productName = RubatoUITests;
+			productReference = 33D097151BF0205E00E6A3F1 /* RubatoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33D096EB1BF0205E00E6A3F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Peter Washington";
+				TargetAttributes = {
+					33D096F21BF0205E00E6A3F1 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					33D097091BF0205E00E6A3F1 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 33D096F21BF0205E00E6A3F1;
+					};
+					33D097141BF0205E00E6A3F1 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 33D096F21BF0205E00E6A3F1;
+					};
+				};
+			};
+			buildConfigurationList = 33D096EE1BF0205E00E6A3F1 /* Build configuration list for PBXProject "Rubato" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33D096EA1BF0205E00E6A3F1;
+			productRefGroup = 33D096F41BF0205E00E6A3F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33D096F21BF0205E00E6A3F1 /* Rubato */,
+				33D097091BF0205E00E6A3F1 /* RubatoTests */,
+				33D097141BF0205E00E6A3F1 /* RubatoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33D096F11BF0205E00E6A3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D097041BF0205E00E6A3F1 /* LaunchScreen.storyboard in Resources */,
+				33D097011BF0205E00E6A3F1 /* Assets.xcassets in Resources */,
+				33D096FC1BF0205E00E6A3F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D097081BF0205E00E6A3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D097131BF0205E00E6A3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33D096EF1BF0205E00E6A3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D096F91BF0205E00E6A3F1 /* ViewController.swift in Sources */,
+				33D096FF1BF0205E00E6A3F1 /* Rubato.xcdatamodeld in Sources */,
+				33D096F71BF0205E00E6A3F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D097061BF0205E00E6A3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D0970F1BF0205E00E6A3F1 /* RubatoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D097111BF0205E00E6A3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D0971A1BF0205E00E6A3F1 /* RubatoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33D0970C1BF0205E00E6A3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33D096F21BF0205E00E6A3F1 /* Rubato */;
+			targetProxy = 33D0970B1BF0205E00E6A3F1 /* PBXContainerItemProxy */;
+		};
+		33D097171BF0205E00E6A3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33D096F21BF0205E00E6A3F1 /* Rubato */;
+			targetProxy = 33D097161BF0205E00E6A3F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33D096FA1BF0205E00E6A3F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33D096FB1BF0205E00E6A3F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33D097021BF0205E00E6A3F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33D097031BF0205E00E6A3F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33D0971C1BF0205E00E6A3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33D0971D1BF0205E00E6A3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33D0971F1BF0205E00E6A3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rubato/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs147.Rubato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33D097201BF0205E00E6A3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rubato/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs147.Rubato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33D097221BF0205E00E6A3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RubatoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs147.RubatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rubato.app/Rubato";
+			};
+			name = Debug;
+		};
+		33D097231BF0205E00E6A3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RubatoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs147.RubatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rubato.app/Rubato";
+			};
+			name = Release;
+		};
+		33D097251BF0205E00E6A3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RubatoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs147.RubatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Rubato;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		33D097261BF0205E00E6A3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RubatoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs147.RubatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Rubato;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33D096EE1BF0205E00E6A3F1 /* Build configuration list for PBXProject "Rubato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D0971C1BF0205E00E6A3F1 /* Debug */,
+				33D0971D1BF0205E00E6A3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33D0971E1BF0205E00E6A3F1 /* Build configuration list for PBXNativeTarget "Rubato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D0971F1BF0205E00E6A3F1 /* Debug */,
+				33D097201BF0205E00E6A3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33D097211BF0205E00E6A3F1 /* Build configuration list for PBXNativeTarget "RubatoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D097221BF0205E00E6A3F1 /* Debug */,
+				33D097231BF0205E00E6A3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33D097241BF0205E00E6A3F1 /* Build configuration list for PBXNativeTarget "RubatoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D097251BF0205E00E6A3F1 /* Debug */,
+				33D097261BF0205E00E6A3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		33D096FD1BF0205E00E6A3F1 /* Rubato.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				33D096FE1BF0205E00E6A3F1 /* Rubato.xcdatamodel */,
+			);
+			currentVersion = 33D096FE1BF0205E00E6A3F1 /* Rubato.xcdatamodel */;
+			path = Rubato.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 33D096EB1BF0205E00E6A3F1 /* Project object */;
+}
